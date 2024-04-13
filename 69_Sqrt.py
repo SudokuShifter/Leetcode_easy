@@ -5,13 +5,10 @@ right = x
 
 
 while right - left > 1:
-    middle = (left + right) // 2 
+    middle = (left + right) // 2
     if middle * middle > x:
         right = middle
     else:
-        left = middle         
+        left = middle
 
-print(left)    
-
-
-
+print(left)
